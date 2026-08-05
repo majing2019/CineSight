@@ -1,0 +1,30 @@
+{
+  "skill_name": "cinesight",
+  "description": "用本地 Mage-VL-4B 把图像/视频转成结构化构图光影分析",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我看下 ~/Desktop/clip.jpg 这张图的构图和光影怎么样，我要决定要不要用它当封面。",
+      "expected_output": "触发 skill，运行 analyze.py --input ~/Desktop/clip.jpg（scene 任务），返回 JSON（composition/lighting）+ 中文总结。",
+      "files": ["~/Desktop/clip.jpg"]
+    },
+    {
+      "id": 2,
+      "prompt": "分析这段视频 shot_05.mp4 的分镜和镜头语言，我要给它的每个镜头配不同转场。",
+      "expected_output": "触发 skill，运行 analyze.py --input shot_05.mp4 --task video，返回 shots[] 分镜 JSON + 剪辑建议。",
+      "files": ["shot_05.mp4"]
+    },
+    {
+      "id": 3,
+      "prompt": "这张照片里人物主要的光是从哪个方向打过来的？色温偏暖还是偏冷？",
+      "expected_output": "触发 skill，scene 任务，lighting.direction / color_temperature 字段给出答案。",
+      "files": ["photo.png"]
+    },
+    {
+      "id": 4,
+      "prompt": "帮我总结一下这份销售数据的图表内容。",
+      "expected_output": "不触发 skill：无图片/视频文件，属于纯文本任务。",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "input": "examples/雪中跳舞.mov",
+  "task": "video",
+  "model": "microsoft/Mage-VL",
+  "device": "mps",
+  "generated_at": "2026-08-05T00:14:58+0800",
+  "parsed": {
+    "summary": "Two people are shoveling snow in front of a warmly lit house at night, then the scene cuts to a close-up of a person's hands working with snow.",
+    "shots": [
+      {
+        "start_sec": 0.0,
+        "end_sec": 2.55,
+        "type": "wide",
+        "camera_movement": "static",
+        "subjects": [
+          "two people, snow, house"
+        ],
+        "composition": "two people in foreground, house in background",
+        "lighting": "warm artificial light from house, cool night sky",
+        "dominant_color": "cool blue",
+        "color_temp": "cool",
+        "energy": "low",
+        "transition_in": {
+          "type": "cut",
+          "reason": "shift to new scene"
+        },
+        "transition_out": {
+          "type": "dip-to-black",
+          "reason": "transition to close-up"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "establishing shot of scene",
+        "scene_detected": true
+      },
+      {
+        "start_sec": 2.55,
+        "end_sec": 5.0,
+        "type": "wide",
+        "camera_movement": "static",
+        "subjects": [
+          "two people, snow, house"
+        ],
+        "composition": "two people in foreground, house in background",
+        "lighting": "warm artificial light from house, cool night sky",
+        "dominant_color": "cool blue",
+        "color_temp": "cool",
+        "energy": "low",
+        "transition_in": {
+          "type": "cut",
+          "reason": "shift to new scene"
+        },
+        "transition_out": {
+          "type": "dip-to-black",
+          "reason": "transition to close-up"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "establishing shot of scene",
+        "scene_detected": true
+      },
+      {
+        "start_sec": 5.0,
+        "end_sec": 59.73,
+        "type": "close-up",
+        "camera_movement": "static",
+        "subjects": [
+          "person's hands, snow"
+        ],
+        "composition": "hands in center of frame, snow filling rest of frame",
+        "lighting": "warm light from house illuminating hands",
+        "dominant_color": "warm yellow",
+        "color_temp": "warm",
+        "energy": "medium",
+        "transition_in": {
+          "type": "dip-to-black",
+          "reason": "transition from wide shot"
+        },
+        "transition_out": {
+          "type": "cut",
+          "reason": "end of video"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "close-up of hands working",
+        "scene_detected": true
+      },
+      {
+        "start_sec": 59.73,
+        "end_sec": 64.88,
+        "type": "close-up",
+        "camera_movement": "static",
+        "subjects": [
+          "person's hands, snow"
+        ],
+        "composition": "hands in center of frame, snow filling rest of frame",
+        "lighting": "warm light from house illuminating hands",
+        "dominant_color": "warm yellow",
+        "color_temp": "warm",
+        "energy": "medium",
+        "transition_in": {
+          "type": "dip-to-black",
+          "reason": "transition from wide shot"
+        },
+        "transition_out": {
+          "type": "cut",
+          "reason": "end of video"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "close-up of hands working",
+        "scene_detected": "approximate"
+      },
+      {
+        "start_sec": 64.88,
+        "end_sec": 67.08,
+        "type": "close-up",
+        "camera_movement": "static",
+        "subjects": [
+          "person's hands, snow"
+        ],
+        "composition": "hands in center of frame, snow filling rest of frame",
+        "lighting": "warm light from house illuminating hands",
+        "dominant_color": "warm yellow",
+        "color_temp": "warm",
+        "energy": "medium",
+        "transition_in": {
+          "type": "dip-to-black",
+          "reason": "transition from wide shot"
+        },
+        "transition_out": {
+          "type": "cut",
+          "reason": "end of video"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "close-up of hands working",
+        "scene_detected": "approximate"
+      },
+      {
+        "start_sec": 67.08,
+        "end_sec": 69.12,
+        "type": "close-up",
+        "camera_movement": "static",
+        "subjects": [
+          "person's hands, snow"
+        ],
+        "composition": "hands in center of frame, snow filling rest of frame",
+        "lighting": "warm light from house illuminating hands",
+        "dominant_color": "warm yellow",
+        "color_temp": "warm",
+        "energy": "medium",
+        "transition_in": {
+          "type": "dip-to-black",
+          "reason": "transition from wide shot"
+        },
+        "transition_out": {
+          "type": "cut",
+          "reason": "end of video"
+        },
+        "b_roll_use": "none",
+        "edit_notes": "close-up of hands working",
+        "scene_detected": "approximate"
+      }
+    ],
+    "sequence": {
+      "structure": "continuity",
+      "pacing": {
+        "tempo": "slow",
+        "suggested_cut_duration_sec": 3.0,
+        "rhythm": "steady, calm"
+      },
+      "color_flow": "cool to warm",
+      "strongest_moment_sec": 0.0,
+      "transition_suggestions": [
+        "cut to close-up of hands"
+      ],
+      "broll_candidates": [],
+      "color_match_scores": []
+    },
+    "editing_suggestions": [
+      "add sound of shoveling snow",
+      "add sound of house interior"
+    ]
+  },
+  "raw_output": "{\n  \"summary\": \"Two people are shoveling snow in front of a warmly lit house at night, then the scene cuts to a close-up of a person's hands working with snow.\",\n  \"shots\": [\n    {\n      \"start_sec\": 0.0,\n      \"end_sec\": 5.0,\n      \"type\": \"wide\",\n      \"camera_movement\": \"static\",\n      \"subjects\": [\"two people, snow, house\"],\n      \"composition\": \"two people in foreground, house in background\",\n      \"lighting\": \"warm artificial light from house, cool night sky\",\n      \"dominant_color\": \"cool blue\",\n      \"color_temp\": \"cool\",\n      \"energy\": \"low\",\n      \"transition_in\": {\"type\": \"cut\", \"reason\": \"shift to new scene\"},\n      \"transition_out\": {\"type\": \"dip-to-black\", \"reason\": \"transition to close-up\"},\n      \"b_roll_use\": \"none\",\n      \"edit_notes\": \"establishing shot of scene\"\n    },\n    {\n      \"start_sec\": 5.0,\n      \"end_sec\": 10.0,\n      \"type\": \"close-up\",\n      \"camera_movement\": \"static\",\n      \"subjects\": [\"person's hands, snow\"],\n      \"composition\": \"hands in center of frame, snow filling rest of frame\",\n      \"lighting\": \"warm light from house illuminating hands\",\n      \"dominant_color\": \"warm yellow\",\n      \"color_temp\": \"warm\",\n      \"energy\": \"medium\",\n      \"transition_in\": {\"type\": \"dip-to-black\", \"reason\": \"transition from wide shot\"},\n      \"transition_out\": {\"type\": \"cut\", \"reason\": \"end of video\"},\n      \"b_roll_use\": \"none\",\n      \"edit_notes\": \"close-up of hands working\"\n    }\n  ],\n  \"sequence\": {\n    \"structure\": \"continuity\",\n    \"pacing\": {\"tempo\": \"slow\", \"suggested_cut_duration_sec\": 3.0, \"rhythm\": \"steady, calm\"},\n    \"color_flow\": \"cool to warm\",\n    \"strongest_moment_sec\": 0.0,\n    \"transition_suggestions\": [\"cut to close-up of hands\"],\n    \"broll_candidates\": [],\n    \"color_match_scores\": []\n  },\n  \"editing_suggestions\": [\"add sound of shoveling snow\", \"add sound of house interior\"]\n}",
+  "scene_detection": {
+    "cuts_sec": [
+      2.55,
+      5.0,
+      59.73,
+      64.88,
+      67.08
+    ],
+    "total_sec": 69.12
+  }
+}

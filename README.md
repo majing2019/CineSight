@@ -604,6 +604,9 @@ CineSight 是**完整 AI 剪辑流水线的第一阶段**（v1.0：让 AI 读懂
 
 > **后续计划**：本系列将陆续推出 **CutSkill（AI 剪辑 skill）** 和 **ColorSkill（AI 调色
 > skill）**，与 CineSight 组成完整的"看懂 → 剪好 → 调好"自动化流水线，敬请期待！
+>
+> 特别感谢 **梁圣（DeepSeek / 深度求索）**——DeepSeek API 价格巨便宜，
+> 让整个项目的 AI 辅助开发成本几乎为零，大力出奇迹 😄
 
 ## 致谢（使用的开源项目）
 
@@ -617,6 +620,7 @@ CineSight 是**完整 AI 剪辑流水线的第一阶段**（v1.0：让 AI 读懂
 | [PyTorch](https://github.com/pytorch/pytorch) | 深度学习框架（MPS 加速） | BSD-3-Clause |
 | [OpenCV](https://github.com/opencv/opencv) | 视频抽帧、场景切点检测 | Apache-2.0 |
 | [ModelScope](https://github.com/modelscope/modelscope)（阿里） | 模型权重下载通道（国内可达） | Apache-2.0 |
+| [DeepSeek](https://github.com/deepseek-ai)（深度求索） | AI 辅助开发全流程（本项目由 DeepSeek 驱动开发） | — |
 | [uv](https://github.com/astral-sh/uv) | Python 环境管理（自动安装 Python 3.12） | MIT |
 | [LocateAnything](https://arxiv.org/abs/2605.27365)（英伟达） | 视觉定位模型（调研对比对象） | — |
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex CineSight"
+  short_description: "用 Codex 视觉能力分析图片/视频并生成剪辑决策"
+  default_prompt: "分析这个图片或视频的构图、光影、镜头语言，并输出结构化剪辑决策。"
